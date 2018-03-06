@@ -1,0 +1,30 @@
+@mixin ts3{transition: all .3s ease-out;}
+@mixin banImg{width: 1200px;display: block;margin: 0 auto;}
+.banner{
+	width: 100%;overflow: hidden;position: relative;height: 544px;
+	ul{
+		overflow: hidden;height: 554px;position: absolute;left: 0;width:100%;
+		li{height: 544px;float: left;}
+	}
+	.banner1{
+		background: url(../static/images/banner1-bg.jpg) center 0 no-repeat;
+		img{@include banImg;}
+	}
+	.banner2{
+		background: url(../static/images/banner2-bg.jpg) center 0 no-repeat;
+		img{@include banImg;}
+	}
+	.banner3{
+		background: url(../static/images/banner3-bg.jpg) center 0 no-repeat;
+		img{@include banImg;}
+	}
+	.banBtn{
+		width: 40px;height: 40px;position: absolute;top: 48%;background-color: #2a8ae2;opacity: 0.5;cursor: pointer;border-radius: 10px;
+		&:hover{opacity: 1;}
+	}
+	.banlBtn{left: 30px;}
+	.banrBtn{right: 30px;}
+}
+
+
+

@@ -1,0 +1,51 @@
+.footer{
+	width: 100%;height: 262px;
+	.footTop{
+		width: 100%;height: 225px;background: url(../static/images/footTop.png) center 0 no-repeat;
+		.ftTxt{
+			width: 893px;height: 225px;
+		}
+		.ftCode{
+			width: 160px;height: 190px;background: url(../static/images/footer-code.jpg)  no-repeat;text-align: center;margin: 40px 40px 0 0;
+			span{
+				display: block;margin-top: 160px;color: #969697;text-align: center;line-height: 30px;font-size: 14px;
+			}
+		}
+		.footNav{
+			width: 780px;margin-left: -27px;margin-top:50px;display: block;height: 18px;
+			li{
+				float: left;padding: 0 27px;height: 18px;position: relative;
+				a{
+					font-size: 14px;color: #fff;display: block;
+				}
+			}
+			.a:after{
+				content:"";width: 1px;background-color: #848383;height: 50%;top: 6px;position: absolute;left: 0px;
+			}
+		}
+		.footCon{
+			display: block;margin-top: 24px;width: 240px;height: 140px;
+			li{
+				width: 240px;height: 25px;font-size: 14px;color: #969697;line-height: 25px;text-indent: 30px;
+			}
+			.a{
+				background: url(../static/images/footCon1.png) 0 8px no-repeat;
+			}
+			.b{
+				background: url(../static/images/footCon2.png) 0 11px no-repeat;
+			}
+			.c{
+				background: url(../static/images/footCon3.png) 0 11px no-repeat;
+			}
+			.d{
+				background: url(../static/images/footCon4.png) 0 10px no-repeat;
+			}
+		}
+	}
+	.footBot{
+		width: 100%;height: 37px;background-color: #282828;
+		p{
+			font-size: 14px;color: #7d7d7d;line-height: 37px;text-align: center;
+		}
+	}
+}
